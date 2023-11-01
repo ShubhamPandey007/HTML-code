@@ -1,0 +1,29 @@
+table,th,td{
+    border: 1px solid;
+    
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: brown;
+}
+th{text-decoration: underline;
+   
+}
+th,td{
+    padding: 15px;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+    
+
+
+}
+th:hover{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
